@@ -5,7 +5,7 @@
   ## source ./venv/bin/activate
 # windows
     python -m venv .venv
-   ./venv\Scripts\activate.bat
+   .venv\Scripts\activate.bat
 ##Install
   pip install -r requirements.txt
-  uvicorn main:app --host=0.0.0.0 --post=8000 --reload
+  uvicorn main:app --reload --host 0.0.0.0 --port 8000
