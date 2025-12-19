@@ -10,6 +10,13 @@ input {
     border: 1px solid #ccc;
     border-radius: 0.5rem;
 }
+.container-scroll2 {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    min-height: 900px;
+}
 .scroll-1 {
     max-height: 350px;
     overflow-y: auto;
